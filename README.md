@@ -85,6 +85,28 @@ Created DataBrew recipes and ran successful jobs to clean each dataset.
 Standardized column formats and removed invalid rows.
 ![Screenshot 2025-03-27 112659](https://github.com/user-attachments/assets/c8ffb874-0039-4543-8226-c73b6f730a78)
 ![Screenshot 2025-03-27 112747](https://github.com/user-attachments/assets/0a73f148-0d81-45e0-b8e4-601c90bacdc2)
+Tools and Technologies:
+
+AWS S3
+AWS Glue DataBrew
+PowerShell
+draw.io
+Amazon S3 Lifecycle Management
+Architecture Overview:
+The system integrates EC2 (for ingestion), S3 (for storage), and Glue DataBrew (for profiling and cleaning).
+
+PowerShell Upload Command Used: Write-S3Object -Bucket academics-raw-anita -File "C:\Users\Administrator\Documents\academics-user-log.txt" -Key "/academic misconduct/academics-user-log/Ingestion/year=2025/quarter=1/month=1/day=25/server=ASVS-anita/academics-user-log.txt"
+Deliverables:
+
+DataBrew profile reports and cleaning job outputs
+Cleaned and validated log datasets
+Lifecycle-enabled data lake structure
+Timeline:
+
+Completed in under 2 weeks: profiling, cleaning, and lifecycle setup
+Outcome:
+This project ensures continuous data quality and archival integrity of academic logs at UCW, supporting compliance and analytics.
+
 
 
 
