@@ -15,3 +15,4 @@ Methodology:
 
 Data Collection:
 Academic misconduct data is collected and formatted into structured CSV files.
+![Screenshot 2025-03-27 121136](https://github.com/user-attachments/assets/902f12ca-8189-4dca-a851-4fc3a7536f56)
