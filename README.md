@@ -148,7 +148,8 @@ Reviewed cardinality (one-to-many and one-to-one) across entity links.
 
 Documentation and Validation:
 ERD was documented visually and reviewed for accuracy and normalization.
-![Screenshot 2025-03-27 121136](https://github.com/user-attachments/assets/54515879-75c8-47f6-afec-f4ce7c51dd5c)
+![Screenshot 2025-03-27 150036](https://github.com/user-attachments/assets/0e5ef980-91a7-40a8-89c4-f6304c172658)
+
 Ready for use in SQL database schema creation and relational queries.
 
 Tools and Technologies:
