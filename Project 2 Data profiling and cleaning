@@ -1,0 +1,23 @@
+Data Quality Control for Academic User Logs – UCW Project
+Project Title: Implementation of Data Quality Control Measures for Academic Logs at UCW
+Objective:
+To establish a robust data quality control framework for managing academic user log data stored in Amazon S3. The focus is on ensuring accuracy, completeness, consistency, and long-term integrity through profiling, cleaning, validation, and lifecycle rules using AWS Glue DataBrew and S3.
+
+Background:
+Academic systems at University Canada West collect detailed logs and records, which were previously unmanaged. This project implements a scalable solution to ingest, profile, clean, and monitor these logs in AWS, ensuring regulatory compliance and data readiness for analytics.
+
+Dataset:
+
+academics-user-log.txt: A structured log file with 50 rows and multiple attributes.
+Additional datasets: Academic sanction, Student Lists, and Case Lists.
+Methodology:
+
+Current State Assessment
+Analyzed user logs and academic data in AWS S3.
+Identified data issues: inconsistent column structures and lack of validation checks.
+Data Profiling (using AWS Glue DataBrew)
+Identified column types, missing values, and duplicate rows.
+Profiled datasets:
+aca-sanction-list-ds-anita
+Aca-Case-list-ds-anita
+Aca-student-list-ds-anita
