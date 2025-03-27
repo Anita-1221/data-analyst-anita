@@ -55,3 +55,36 @@ Timeline: Completion of the project: 1 week including ingestion logic design, up
 
 Outcome: This data wrangling project enables UCW to maintain a centralized, cloud-based repository of academic misconduct records, supporting future reporting, auditing, and analytics with high data integrity and structure
 
+# Project 2 Data Profiling and Cleaning
+Data Quality Control for Academic User Logs – UCW Project
+Project Title: Implementation of Data Quality Control Measures for Academic Logs at UCW
+Objective:
+To establish a robust data quality control framework for managing academic user log data stored in Amazon S3. The focus is on ensuring accuracy, completeness, consistency, and long-term integrity through profiling, cleaning, validation, and lifecycle rules using AWS Glue DataBrew and S3.
+
+Background:
+Academic systems at University Canada West collect detailed logs and records, which were previously unmanaged. This project implements a scalable solution to ingest, profile, clean, and monitor these logs in AWS, ensuring regulatory compliance and data readiness for analytics.
+
+Dataset:
+
+academics-user-log.txt: A structured log file with 50 rows and multiple attributes.
+Additional datasets: sanction Lists, Student Lists, and Case Lists.
+Methodology:
+
+Current State Assessment
+Analyzed user logs and academic data in AWS S3.
+Identified data issues: inconsistent column structures and lack of validation checks.
+Data Profiling (using AWS Glue DataBrew)
+Identified column types, missing values, and duplicate rows.
+Profiled datasets:
+academic-Sanction-list-ds-anita
+academic-Case-list-ds-anita
+academic-student-list-ds-anita
+![Dataprofile overview](https://github.com/user-attachments/assets/68a36fd6-7abc-4112-9e88-1f907093dbef)
+Data Cleansing
+Created DataBrew recipes and ran successful jobs to clean each dataset.
+Standardized column formats and removed invalid rows.
+![Screenshot 2025-03-27 112659](https://github.com/user-attachments/assets/c8ffb874-0039-4543-8226-c73b6f730a78)
+![Screenshot 2025-03-27 112747](https://github.com/user-attachments/assets/0a73f148-0d81-45e0-b8e4-601c90bacdc2)
+
+
+
