@@ -166,6 +166,72 @@ Completed within 1–2 days including review, diagramming, and documentation
 Outcome:
 The final ER diagram provides a scalable, normalized structure for managing admissions-related data. It serves as a reference for database creation and supports future extensions such as data analytics, reporting, and student lifecycle tracking.
 
+# Project 4 Data Analytics and Security Platform
+
+Cloud-Based  Analytics and Security Platform
+
+Project Title: Design and Implementation of a Secure Cloud-Based Data Analytics Platform
+
+Objective:
+To design and implement a secure and scalable cloud-based data analytics solution for the City of Vancouver's information using AWS services. The platform focuses on storing, analyzing, and protecting sensitive  data while ensuring governance, availability, and system observability.
+
+Background:
+The City of Vancouver’s growing demand for efficient  data analysis and integrity led to the development of a cloud-native analytics platform. The goal was to extract insights into workforce compensation patterns using Amazon Athena while ensuring security and governance through AWS Glue, CloudTrail, and KMS. The project also prioritized backup and recovery using S3 versioning and replication, and real-time monitoring through CloudWatch.
+
+Dataset:
+The dataset contained Cultural space-related records such as State,website,Phone,Address,years, and workforce distribution across categories. Although specific details remain confidential, data analysis was performed on anonymized records stored in Amazon S3.
+
+Methodology:
+
+Architecture Design:
+
+Outlined high-level architecture leveraging AWS S3, Athena, Glue Studio, KMS, CloudTrail, and CloudWatch.
+Defined the interaction between data storage, analysis, encryption, monitoring, and logging.
+
+Data Security Measures:
+
+Created a customer-managed KMS key for encryption.
+![Screenshot 2025-03-23 022005](https://github.com/user-attachments/assets/cbd527a5-e7e3-4dcd-ab2a-4c92b5bc7299)
+
+Enabled S3 default encryption, versioning, and replication to backup buckets.
+![Screenshot 2025-03-23 022053](https://github.com/user-attachments/assets/0026859b-0e1b-4290-ae79-d4d20d96d4dd)
+![Screenshot 2025-03-23 022122](https://github.com/user-attachments/assets/5d5362b6-660a-44c3-a546-c97b403dfd34)
+![Screenshot 2025-03-23 022148](https://github.com/user-attachments/assets/06baf8ef-1728-443c-82cf-64956b1d5851)
+
+Monitoring and Logging:
+
+Configured CloudWatch dashboards and alarms for tracking bucket usage and anomalies.
+![Screenshot 2025-03-23 124451](https://github.com/user-attachments/assets/e060ea01-a348-4e10-8942-27351aa4e6dc)
+Enabled AWS CloudTrail to log all user/API activity for compliance and traceability.
+
+Tools and Technologies:
+
+Amazon S3
+Amazon Athena
+AWS Glue Studio
+AWS CloudTrail
+AWS CloudWatch
+AWS KMS
+IAM Role Policies
+SQL (Athena Queries)
+ETL Design (Visual with Governance Rules)
+Deliverables:
+
+End-to-end AWS analytics pipeline with monitoring, security, and governance
+Executed SQL queries on salary trends, workforce structure, and classification comparison
+CloudWatch dashboard and alert system
+Glue ETL workflow with rule-based data quality filtering
+CloudTrail audit trail and encrypted replicated S3 buckets
+Visuals, configurations, and code captured in supporting documentation
+Timeline:
+Project completed in 2 weeks, from initial design and setup through data querying, security implementation, monitoring configuration, and final documentation.
+
+Outcome:
+The cloud-based platform successfully processed sensitive payroll data while upholding high standards for security and governance. The system delivered meaningful insights into salary distribution, operational workforce structures, and data quality. Security measures such as encryption, replication, and audit logging were fully integrated, ensuring compliance and disaster recovery readiness for future operational use.
+
+
+
+
 
 
 
